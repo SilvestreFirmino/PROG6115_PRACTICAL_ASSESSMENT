@@ -8,24 +8,25 @@ package prog6115_practical_assessment;
     // Data model for TV Series
     class SeriesModel {
 
-        public int SeriesId;
+        public int SeriesId; // Unique identifier for the series
         public String SeriesName;
         public int SeriesAge;
         public int SeriesNumberOfEpisodes;
 
-        public SeriesModel( int SeriesId, String SeriesName, int age, int episodes) {
+        // Constructor to initialize a SeriesModel object
+        public SeriesModel( int SeriesId, String SeriesName, int age, int episodes) { //
             this.SeriesId = SeriesId;
             this.SeriesName = SeriesName;
             this.SeriesAge = age;
             this.SeriesNumberOfEpisodes = episodes;
         }
 
-
+// Setters to update the series attributes
     public void setEpisodes(int newEpisodes) {
         this.SeriesNumberOfEpisodes = newEpisodes;
 
     }
-
+// Setters to update the series attributes
     public void setAge(int newAge) {
         this.SeriesAge = newAge;
     }
@@ -42,6 +43,7 @@ package prog6115_practical_assessment;
         return SeriesName;
     }
 
+    // Returns age with a "+" sign
     public String getAge() {
         return SeriesAge + "+";
     }

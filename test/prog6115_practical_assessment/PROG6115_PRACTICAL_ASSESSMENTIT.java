@@ -47,5 +47,16 @@ public class PROG6115_PRACTICAL_ASSESSMENTIT {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of printMenu method, of class PROG6115_PRACTICAL_ASSESSMENT.
+     */
+    @Test
+    public void testPrintMenu() {
+        System.out.println("printMenu");
+        PROG6115_PRACTICAL_ASSESSMENT.printMenu();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
