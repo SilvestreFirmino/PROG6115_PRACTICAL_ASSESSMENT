@@ -1,5 +1,5 @@
 
-package prog6115_practical_assessment;
+package prog6112_practical_assessment;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author SYLVESTER FIRMINO
  */
-public class PROG6115_PRACTICAL_ASSESSMENT {
+public class PROG6112_PRACTICAL_ASSESSMENT {
 
 
     public static void main(String[] args) {

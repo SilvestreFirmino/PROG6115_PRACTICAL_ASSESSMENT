@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
-package prog6115_practical_assessment;
+package prog6112_practical_assessment;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
@@ -15,9 +15,9 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author SYLVESTER FIRMINO
  */
-public class PROG6115_PRACTICAL_ASSESSMENTIT {
+public class PROG6112_PRACTICAL_ASSESSMENTIT {
     
-    public PROG6115_PRACTICAL_ASSESSMENTIT() {
+    public PROG6112_PRACTICAL_ASSESSMENTIT() {
     }
     
     @BeforeAll
@@ -37,24 +37,24 @@ public class PROG6115_PRACTICAL_ASSESSMENTIT {
     }
 
     /**
-     * Test of main method, of class PROG6115_PRACTICAL_ASSESSMENT.
+     * Test of main method, of class PROG6112_PRACTICAL_ASSESSMENT.
      */
     @Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
-        PROG6115_PRACTICAL_ASSESSMENT.main(args);
+        PROG6112_PRACTICAL_ASSESSMENT.main(args);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
 
     /**
-     * Test of printMenu method, of class PROG6115_PRACTICAL_ASSESSMENT.
+     * Test of printMenu method, of class PROG6112_PRACTICAL_ASSESSMENT.
      */
     @Test
     public void testPrintMenu() {
         System.out.println("printMenu");
-        PROG6115_PRACTICAL_ASSESSMENT.printMenu();
+        PROG6112_PRACTICAL_ASSESSMENT.printMenu();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }

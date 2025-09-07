@@ -1,4 +1,4 @@
-package prog6115_practical_assessment;
+package prog6112_practical_assessment;
 
 import java.util.ArrayList;
 import java.util.Scanner;
